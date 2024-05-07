@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.aling-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.w-1 {
+  width: 100%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 33.33%;
+}
+
+.w-4 {
+  width: 25%;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header {
+  padding: 15px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+header nav ul li {
+  padding-left: 15px;
+}
+header nav ul li:first-child a {
+  color: #22A39F;
+}
+header nav ul li a {
+  color: black;
+  font-size: 13px;
+}
+header .button a {
+  font-size: 11px;
+  background-color: #22A39F;
+  padding: 11px 20px;
+  color: white;
+}
+
+.banner {
+  background-image: url(../img/banner2.webp);
+  background-size: cover;
+}
+
+.banner-content {
+  text-align: center;
+  padding: 200px 0;
+}
+.banner-content h1 {
+  font-size: 92px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.banner-content p {
+  font-size: 13px;
+  color: rgb(89, 89, 89);
+}
+.banner-content a {
+  font-size: 11px;
+  background-color: #22A39F;
+  padding: 11px 25px;
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.services {
+  padding: 100px 0;
+  background-color: #fff;
+}
+.services .services-item {
+  margin: 0 10px;
+}
+.services .services-item {
+  text-align: center;
+  padding: 50px;
+  box-shadow: 0 0 45px 0 rgba(225, 225, 225, 0.8);
+}
+.services .services-item h3 {
+  font-size: 18px;
+  padding: 15px 0;
+  font-weight: 550;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.services .services-item p {
+  font-size: 15px;
+  line-height: 28px;
+}
+.services a {
+  font-size: 15px;
+  padding: 10px 35px;
+  color: white;
+  background-color: #22A39F;
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.logo-item {
+  margin-bottom: 100px;
+}
+
+.experience .experience-item {
+  background-color: #f1f1f1;
+  padding: 55px;
+}
+.experience .experience-item h2 {
+  font-size: 35px;
+  font-weight: 630;
+  padding-bottom: 20px;
+}
+.experience .experience-item p {
+  color: #4B4F58;
+  font-size: 15px;
+  line-height: 28px;
+}
+.experience .experience-item a {
+  background-color: #09AE88;
+  padding: 11px 40px;
+  color: white;
+  margin: 50px 0 0 15px;
+  display: inline-block;
+}
+.experience .experience-inner img {
+  display: block;
+}
+.experience .experience-inner .w-2:last-of-type .experience-item-1 {
+  background-color: #22A39F;
+}
+.experience .experience-inner .w-2 .experience-item-1 {
+  background-color: #ffd763;
+  height: 189px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+.experience .experience-inner .w-2 .experience-item-1 i {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.experience .experience-inner .w-2 .experience-item-1 p {
+  font-size: 16px;
+}
+
+.installation .installation-titel {
+  padding: 100px 0;
+}
+.installation .installation-titel h2 {
+  font-size: 50px;
+}
+.installation .installation-titel span {
+  display: inline-block;
+  height: 80px;
+  width: 2px;
+  margin: 20px 0;
+  background-color: #6EC1E4;
+}
+.installation .installation-titel a {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.installation .installation-main {
+  background: url(../img/banner.jpg);
+  background-blend-mode: darken;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+  background-attachment: fixed;
+}
+.installation .installation-main a {
+  display: inline-block;
+  margin-bottom: 80px;
+}
+.installation .installation-main a i {
+  width: 100px;
+  height: 100px;
+  background-color: #ffd763;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+.installation .installation-main h2 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.number {
+  padding: 100px;
+}
+.number .number-titel {
+  padding-bottom: 100px;
+}
+.number .number-titel h2 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.number .number-titel p {
+  font-size: 17px;
+}
+.number .number-main .number-inner {
+  margin: 0 15px;
+  position: relative;
+}
+.number .number-main .number-inner .number-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.number .number-main .number-inner .number-item h2 {
+  font-size: 50px;
+  color: #6EC1E4;
+  padding-bottom: 10px;
+}
+.number .number-main .number-inner .number-item p {
+  font-size: 18px;
+}
+
+.gallery .gallery-img {
+  column-count: 3;
+  column-gap: 0;
+}
+.gallery .gallery-img img {
+  display: block;
+}
+
+.testimonial {
+  padding: 100px 0;
+}
+.testimonial .testimonial-titel {
+  padding-bottom: 100px;
+}
+.testimonial .testimonial-titel h2 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+.testimonial .testimonial-titel p {
+  font-size: 17px;
+}
+.testimonial .testimonial-inner {
+  padding: 0 30px;
+  margin: 0 10px;
+}
+.testimonial .testimonial-inner p {
+  font-size: 16px;
+  padding: 15px 0;
+}
+.testimonial .testimonial-inner ul {
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.testimonial .testimonial-inner ul li {
+  color: #6EC1E4;
+  padding: 0 2px;
+}
+.testimonial .testimonial-inner ul li:last-of-type {
+  color: rgba(110, 193, 228, 0.4196078431);
+}
+
+.choose-us {
+  background-color: #ffd763;
+}
+.choose-us .choose-img img {
+  display: block;
+}
+.choose-us .choose-item {
+  padding: 0 50px;
+}
+.choose-us .choose-item h4 {
+  font-size: 20px;
+}
+.choose-us .choose-item h2 {
+  font-size: 50px;
+  padding-top: 20px;
+}
+.choose-us .choose-item p {
+  padding: 20px 100px 20px 0;
+  font-size: 17px;
+  line-height: 25px;
+}
+.choose-us .choose-item a {
+  padding: 12px 20px;
+  background-color: #6EC1E4;
+  display: inline-block;
+  color: #fff;
+}
+
+.contact-us .contact-us-item {
+  padding: 100px 0;
+}
+.contact-us .contact-us-item ul li {
+  padding-left: 55px;
+}
+.contact-us .contact-us-item ul li i {
+  padding: 10px 8px 0 0;
+  font-size: 30px;
+}
+.contact-us .contact-us-item ul li h3 {
+  font-size: 18px;
+  color: red;
+  font-weight: 550;
+}
+
+/*# sourceMappingURL=style.css.map */
